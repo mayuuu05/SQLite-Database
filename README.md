@@ -12,6 +12,25 @@ This Flutter application allows users to manage a collection of quotes by adding
 - **View Quotes**: All stored quotes are displayed in a scrollable list. Each item shows the quote text, author, and category, with the ability to delete individual quotes.
 - **Delete Quotes**: Users can delete quotes from the database. A confirmation dialog ensures that quotes are not deleted accidentally.
 
+### **Directory Descriptions:**
+
+- **`controller/`**: Contains `database_controller.dart`, which is responsible for managing database operations and application state using GetX.
+- **`helper/`**: Includes `db_helper_service.dart`, a utility class for managing SQLite database interactions.
+- **`main.dart`**: The main entry point of the application where the app starts.
+- **`screens/`**: Holds `home_screen.dart`, which is the primary screen displaying the list of quotes and handling user input for adding or deleting quotes.
+
+## Dependencies
+
+- **sqflite**: For SQLite database operations.
+- **path**: For managing file paths.
+- **get**: For state management and dependency injection.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
 ## Screenshots
 
 <div align = "center">
