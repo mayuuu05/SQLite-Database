@@ -1,4 +1,18 @@
 # sqlite_database
+# Flutter Quotes App with SQLite
+
+## Overview
+
+This Flutter application allows users to manage a collection of quotes by adding, displaying, and deleting them using a local SQLite database. The app features a clean and responsive user interface, making it easy for users to interact with their quotes.
+
+## Features
+
+- **SQLite Database Integration**: The app uses SQLite to store quotes locally on the device. The database is managed through a `DbHelper` class, ensuring efficient data handling.
+- **Add Quotes**: Users can add new quotes by entering the quote text, author, and category. The quotes are saved to the SQLite database and immediately reflected in the UI.
+- **View Quotes**: All stored quotes are displayed in a scrollable list. Each item shows the quote text, author, and category, with the ability to delete individual quotes.
+- **Delete Quotes**: Users can delete quotes from the database. A confirmation dialog ensures that quotes are not deleted accidentally.
+
+## Screenshots
 
 <div align = "center">
  
