@@ -24,8 +24,6 @@ class DatabaseController extends GetxController {
     await DbHelper.dbHelper.insertQuote(quote, author, category);
     loadQuotes();
   }
-
-  // => delete
   Future<void> deleteQuote(int index) async {
     await DbHelper.dbHelper.deleteQuote(index);
     loadQuotes();
